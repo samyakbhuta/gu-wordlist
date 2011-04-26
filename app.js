@@ -54,7 +54,7 @@ config = JSON.parse(fs.readFileSync('./config.json'));
 // TODO: Support for http://example.org:1234/wl/LX,LY.FORMAT
 // TODO: Authentication and user list in database.
 // TODO: Create a MongoDB from the worldlist file. So that word can be unqiuely mapped to the ids and not line no. for lateral reference. Line number for a given number changes over time as wordlist goes through changes.
-
+// TODO: Should be able to request application/json request body. Guess bodyParser middleware for connect/express.js will come handy.
 /*
  * Default host and port ! This should be ideally specified using command line or config.json file.
  * Default are here just in the case nothing is supplied.
