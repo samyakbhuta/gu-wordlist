@@ -1,0 +1,9 @@
+{
+  "appname": "Gujarati Word List Monger",
+  "host":"localhost",
+  "port":"1234",
+  "username":"vir",
+  "secret":"narmad",
+  "wordListFileName":"gu-small.wl",
+  "wordListFilePath":"./"	
+}
