@@ -1,0 +1,21 @@
+{
+  "name": "gu-wordlist",
+  "description": "Gujarati Wordlist Monger",
+  "version": "0.1.0",
+  "homepage": "http://twitter.com/#!/samyak_bhuta",
+  "repository": {
+    "type": "git",
+    "url": "git://gitorious.org/gujarati-resources/gu-wordlist.git"
+  },
+  "author": "Samyak Bhuta <samyak.bhuta@gmail.com> (http://twitter.com/#!/samyak_bhuta)",
+  "directories": {
+    "lib": "."
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "express": "*"
+  }
+
+}
