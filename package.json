@@ -15,7 +15,8 @@
     "node": "*"
   },
   "dependencies": {
-    "express": "*"
+    "express": "*",
+	"mongoose": "*"
   },
   "main": "moveToMongo.js"
 }
