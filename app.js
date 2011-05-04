@@ -122,8 +122,8 @@ httpServer.get("/wl/L:id1(\d+)-L:id2(\d+).:format",function(req,res){
 		 fromLine^=toLine;
 	}
 	var diff = toLine-fromLine+1;
-	var commandString = "head -"+toLine+" "+currentWordListFilePath + currentWordListFileName +" | tail -"+diff"; 
-	childProcess= exec(,function(err,stdout,stderr){
+	var commandString = "head -"+toLine+" "+currentWordListFilePath + currentWordListFileName +" | tail -"+diff; 
+	childProcess= exec(commandString,function(err,stdout,stderr){
 		resultWordList = stdout.trim();
 		resultWordListArray= resultWordList.split("\n");
 		//TODO : BUG : Splitting is generating extra array member at last. Use split dilligently or slice the array.			
