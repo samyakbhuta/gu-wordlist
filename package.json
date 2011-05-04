@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "express": "*"
-  }
-
+  },
+  "main": "moveToMongo.js"
 }
